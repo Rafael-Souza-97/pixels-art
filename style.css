@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+#color1 {
+  background-color: black;
+}
+
+#color2 {
+  background-color: red;
+}
+
+#color3 {
+  background-color: green;
+}
+
+#color4 {
+  background-color: blue;
+}
+
+#pixel-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 2%;
+  margin-left: 46%;
+  margin-right: 50%;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  background-color: white;
+}
