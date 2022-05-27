@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 id="title" >Paleta de Cores</h1>
-        <section id="color-palette"> 
-            <div id="color1" class="color selected"></div>
-            <div id="color2" class="color"></div>
-            <div id="color3" class="color"></div>
-            <div id="color4" class="color"></div>
-        </section>
+    <div class="container">
+        <header>
+            <h1 id="title" >Paleta de Cores</h1>
+            <section id="color-palette"> 
+                <div id="colorBlack" class="color selected"></div>
+                <div id="colorRed" class="color"></div>
+                <div id="colorGreen" class="color"></div>
+                <div id="colorBlue" class="color"></div>
+            </section>
     </header>
 
-    <main>
-        <section id="pixel-board">
-        </section>
-    </main>
+        <button id="clear-board">Limpar</button>
+        <button id="generate-board">VQV</button>
+        <input type="number" id="board-size" value="sadas">
 
+        <main>
+            <section id="pixel-board">
+            </section>
+        </main>
+    </div>  
     <script src="script.js"></script>
 </body>
 </html>
