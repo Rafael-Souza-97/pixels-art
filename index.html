@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paleta de Cores</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1 id="title" >Paleta de Cores</h1>
-            <section id="color-palette"> 
-                <div id="colorBlack" class="color selected"></div>
-                <div id="colorRed" class="color"></div>
-                <div id="colorGreen" class="color"></div>
-                <div id="colorBlue" class="color"></div>
-            </section>
-    </header>
+      <header>
+        <h1 id="title">Paleta de Cores</h1>
+        <section id="color-palette">
+          <div id="colorBlack" class="color selected"></div>
+          <div id="colorRed" class="color"></div>
+          <div id="colorGreen" class="color"></div>
+          <div id="colorBlue" class="color"></div>
+        </section>
+      </header>
 
-        <button id="clear-board">Limpar</button>
+      <button id="clear-board">Limpar</button>
+      <section id="container-button">
+        <input type="number" id="board-size" min="1" name="size">
         <button id="generate-board">VQV</button>
-        <input type="number" id="board-size" value="sadas">
+      </section>
 
-        <main>
-            <section id="pixel-board">
-            </section>
-        </main>
-    </div>  
+      <main id="main">
+        <section id="pixel-board"></section>
+      </main>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
