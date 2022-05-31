@@ -13,7 +13,6 @@ body {
   padding: 5% 17% 17%;
   border-radius: 30px;
   margin: auto;
-  background-image: linear-gradient(to bottom, rgb(255, 96, 96), rgb(255, 193, 77), rgb(253, 253, 90), lightgreen, rgb(42, 253, 253), rgb(119, 158, 255));
   text-align: center;
   width: 680px;
 }
@@ -112,3 +111,6 @@ h1:active {
 /* .selected {
   transform: translateY(-7px);
 } */
+
+/* background-image: linear-gradient(to bottom, rgb(255, 96, 96), rgb(255, 193, 77),
+rgb(253, 253, 90), lightgreen, rgb(42, 253, 253), rgb(119, 158, 255)); */
