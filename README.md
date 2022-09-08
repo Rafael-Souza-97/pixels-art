@@ -34,3 +34,5 @@ Neste projeto foi implementado um editor de arte com pixels em que a pessoa usu√
 https://pixels-art-gamma.vercel.app/
 
 ## Preview
+
+https://user-images.githubusercontent.com/99055008/189159562-620a40b3-bc52-4a1e-9a56-7d0fb4061e52.mp4
