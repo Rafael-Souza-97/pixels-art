@@ -3,7 +3,7 @@
 Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos de [JavaScript](https://www.javascript.com/), [HTML](https://html.com/)
 e [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
 
-Neste projeto foi implementado um editor de arte com pixels em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco art artist
+Neste projeto foi implementado um editor de arte com pixels em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco art artist.
 
 ## Autor
 
