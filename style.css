@@ -10,11 +10,12 @@ body {
 .container {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
-  padding: 5% 17% 17%;
-  border-radius: 30px;
+  padding: 5% 23% 12.1%;
+  background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 193, 77), lightgreen, rgb(42, 253, 253), rgb(119, 158, 255), rgb(0, 72, 255) );
+  animation: gradientEffect 4s linear infinite alternate;
+  background-size: 200% 200%;
   margin: auto;
   text-align: center;
-  width: 680px;
 }
 
 h1 {
@@ -108,9 +109,23 @@ h1:active {
   background-color: white;
 }
 
-/* .selected {
+.selected {
   transform: translateY(-7px);
-} */
+}
 
-/* background-image: linear-gradient(to bottom, rgb(255, 96, 96), rgb(255, 193, 77),
-rgb(253, 253, 90), lightgreen, rgb(42, 253, 253), rgb(119, 158, 255)); */
+body , html {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientEffect {
+
+  from { background-position: 0 0;}
+
+  to { background-position: 100% 100%;}
+}
+
+/* 
+background: url('mario-pixel-art.gif') no-repeat center center fixed;
+  background-size: cover; */
+
