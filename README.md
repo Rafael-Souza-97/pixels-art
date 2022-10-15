@@ -29,7 +29,7 @@ Neste projeto foi implementado um editor de arte com pixels em que a pessoa usu�
 - ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 100%
 - ###### Aplicação responsiva - ❌
 
-## Site
+## Site / Deploy
 
 https://pixels-art-gamma.vercel.app/
 
